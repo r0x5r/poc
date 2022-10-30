@@ -1,0 +1,23 @@
+# Exploit Title: Train Scheduler App v1.0 - Insecure Direct Object Reference (IDOR) to "delete user id " 
+# Exploit Author: Rohit Sharma
+# Vendor Name: oretnom23 
+# Vendor Homepage: https://www.sourcecodester.com/php/15720/train-scheduler-app-using-php-oop-and-mysql-database-free-download.html
+# Software Link: https://www.sourcecodester.com/php/15720/train-scheduler-app-using-php-oop-and-mysql-database-free-download.html
+# Version: v1.0
+# Tested on: window, xampp ,apache
+
+
+vulnerbailty description:- Train Scheduler App suffers from an Insecure Direct Object Reference (IDOR) vulnerability
+
+
+
+Vulnerable Parameters:
+action , id 
+
+how to reproduce this vulnerabilty:-
+1:- host this web on local host 
+2:- go to this url http://127.0.0.1/train_scheduler_app/
+3:- add random number to generate schedule list i creted alot list to testing this application 
+4:- go this url  http://127.0.0.1/train_scheduler_app/?action=delete&id=5
+5:- id parameter is vulnerbale for idor change this to increasing number to delet user schedule list 5>>6>>7>>8 etc 
+
