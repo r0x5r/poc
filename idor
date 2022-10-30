@@ -7,7 +7,7 @@
 # Tested on: window, xampp ,apache
 
 
-vulnerbailty description:- Train Scheduler App suffers from an Insecure Direct Object Reference (IDOR) vulnerability
+vulnerability description:- Train Scheduler App suffers from an Insecure Direct Object Reference (IDOR) vulnerability
 
 
 
