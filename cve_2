@@ -1,0 +1,22 @@
+# Exploit Title: Courier Management System Suffer From Stored Cross Site Scripting(xss)
+# Exploit Author: Rohit Sharma (r0x5r)
+# Vendor Name:  mayuri_k
+# Vendor Homepage: https://www.sourcecodester.com/php/16848/best-courier-management-system-project-php.html
+# Software Link: https://www.sourcecodester.com/php/16848/best-courier-management-system-project-php.html
+# Version: v1.0
+# Tested on: window, xampp ,apache
+
+
+vulnerbailty description:- Courier Management System Suffer From Stored Cross Site Scripting(xss) vulnerability
+
+
+
+Vulnerable Parameters:
+action , id
+
+how to reproduce this vulnerabilty:-
+1:- host this web on local host
+2:- go to this url http://127.0.0.1/[web_name]
+3:- enter username suhit@gmail.com and password suhit
+4:- click on manage account >> in first name paste this "><img src=x onerror=alert(1)> >> in last name paste this  "><img src=x onerror=alert(1)> >>  click on save >> xss payload will popup
+
