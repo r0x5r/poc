@@ -5,7 +5,7 @@
 # Software Link: https://www.sourcecodester.com/php/16848/best-courier-management-system-project-php.html
 # Version: v1.0
 # Tested on: window, xampp ,apache
-
+#cve CVE-2023-5302
 
 vulnerbailty description:- Courier Management System Suffer From Stored Cross Site Scripting(xss) vulnerability
 
